@@ -4,7 +4,7 @@ Every year there are more and more companies displaying their goods and services
 
 ## Getting Started
 
-Visit the URL: 
+Visit the URL: https://tscarl.github.io/Horiseon-Social-Solution-Services/#online-reputation-management
 
 ## Built with
 
