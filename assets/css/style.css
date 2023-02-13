@@ -1,0 +1,142 @@
+/*Resets default padding and margin for all elements, sets box-sizing to bored-box*/
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* Sets background color for the entire the page*/
+body {
+    background-color: #d9dcd6;
+}
+
+/*Styles the header, the small blue band at the top of the web page*/
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+/*Increases the default font-size and changes the position of the title within the header*/
+.title {
+    display: inline-block;
+    font-size: 48px;
+}
+/*Sets the color for the seo class*/
+.seo {
+    color: #d9dcd6;
+}
+
+/*Styles the navigation menu (within the header) which are links for getting around the page*/
+.nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/*Removes bullet points from list items*/
+.list {
+    list-style-type: none;
+}
+
+/*Increments margin-left for each list item within the navigation menu*/
+.point {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/*Sets font size for all paragraph elements*/
+p {
+    font-size: 16px;
+}
+
+/*Styles the large image below the header, affecting its size and position and placing it in the background*/
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/*Separates the different articles for each other*/
+.body {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/*Floats two of the images within the body to the left*/
+.float-left {
+   float: left;
+   margin-right: 25px;
+   max-height: 200px;
+}
+
+/*Floats one of the images within the body to the right*/
+.float-right {
+       float: right;
+       margin-left: 25px;
+       max-height: 200px;
+}
+
+/*Styles the articles within the body, setting the margin, padding, height, font and colors*/
+.common { 
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/*Sets the margin and font size for the h2 elements within the body*/
+h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/*Sets the position and colors for the 3rd section tags within the body*/
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    background-color: #2589bd;
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/*Sets the margin and alignment of all h3 elements on the webpage*/
+h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/*Sets the Position and max width for all images on the webpage*/
+img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/*Sets the padding, position and font style within the footer*/
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+/*Sets the size for the h2 element in the footer, separating it from the largerm h2 elements in the body*/
+.footer h2 {
+    font-size: 20px;
+}
